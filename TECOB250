@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>
+Form
+</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryvalidate/
+1.17.0/jquery.validate.js"></script>
+<script src="assg2.js" type="text/javascript"></script>
+<link rel="stylesheet" href="assg2.css">
+</head>
+<body>
+<div class="form2">
+<!-- <form name="myform" id="form11" action="http://localhost:8080/TECOB203/Servlet"
+method=post> -->
+<form name="myform" id="form11" action="h1.php" method=post>
+Name:<br><input type="text" name="name1" placeholder="Enter Name" ><br>
+Password:<br><input type="password" name="pass12" id="pass12" placeholder="Enter
+password" required><br>
+Confirm Password:<br><input type="password" name="pass2" id="pass2" placeholder="Confirm
+password" required><br>
+Mobile No:<br><input type="text" name="mobnum" pattern="[0-9]{10}" placeholder="Enter
+Mobile No" required><br>
+Email Id:<br><input type="text" placeholder="Enter Mail" pattern="[A-Za-z0-9]+@[^@]+\.[a-zAZ]{
+2,6}" name="email1" required><br>
+Gender:male<input type="radio" name="gender" value="male">
+female<input type="radio" name="gender" value="female" ><br>
+Hobbies:<input type="checkbox" name="sport" value="sport"> sport
+<input type="checkbox" name="music" value="music"> music
+<input type="checkbox" name="other" value="other"> other<br>
+state: <select>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Punjab">Punjab</option>
+<option value="Gujarat">Gujarat</option>
+<option value="Other">Other</option>
+</select><br>
+pin:<input type="number" name="pin" required><br>
+<input type="submit" value="Submit" id="submit1" >
+</form>
+</div>
+</body>
+</html>
